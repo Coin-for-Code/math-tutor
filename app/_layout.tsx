@@ -35,6 +35,6 @@ export default function RootLayout() {
     //  </Stack>
     //  <StatusBar style="auto" />
     //</ThemeProvider>
-	<Stack />
+      <Stack screenOptions={{headerShown: false}} />
   );
 }
