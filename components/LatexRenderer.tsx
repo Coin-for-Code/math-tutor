@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import { WebView } from 'react-native-webview';
+import HTML from 'react-native-render-html';
 
 type LatexRendererProps = {text: string};
 
@@ -16,10 +17,15 @@ const LatexRenderer: React.FC<LatexRendererProps> = ({text}) => {
       <style>
         body {
           font-family: Arial, sans-serif;
-          background-color: #f0f0f0;
+          background-color: #ffffff;
           color: #333;
           text-align: center;
-          padding: 50px;
+          max-width: 100%;
+          overflow-x: hidden;
+        }
+        
+        #id {
+          position: static;
         }
       </style>
     </head>
@@ -33,17 +39,10 @@ const LatexRenderer: React.FC<LatexRendererProps> = ({text}) => {
   `; 
 
   return (
-    <View style={styles.container}>
-      <WebView
-        originWhitelist={['*']}
-        source={{ html: htmlContent }}
-        style={{ flex: 1 }}
-        onError={(syntheticEvent) => {
-          const { nativeEvent } = syntheticEvent;
-          console.error('WebView error: ', nativeEvent);
-        }}
-      />
-    </View>
+    <View>
+      <HTML 
+      source={{html: '<p>your html</p>'}}/>
+     </View>
   );
 };
 

@@ -7,8 +7,8 @@ const App: React.FC = () => {
   return (
     <SafeAreaProvider>
       <SafeAreaView style={{ flex: 1 }}>
+        <View style={{}}><Button title='Solve the equation' /></View>
         <LatexRenderer text='\begin{pmatrix} a \\ b \end{pmatrix}'/>
-        <View style={{flex:1}}><Button title='Solve the goddamn equation' /></View>
       </SafeAreaView>
     </SafeAreaProvider>
   );
