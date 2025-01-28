@@ -28,11 +28,11 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.81768322"
-     inkscape:cx="88.665143"
-     inkscape:cy="278.83659"
+     inkscape:zoom="1.1605867"
+     inkscape:cx="-95.210468"
+     inkscape:cy="146.47764"
      inkscape:window-width="1680"
-     inkscape:window-height="931"
+     inkscape:window-height="930"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
@@ -65,7 +65,7 @@
        margin="0"
        bleed="0"
        inkscape:label="AdaptiveLogo"
-       inkscape:export-filename="assets/images/adaptive-icon.png"
+       inkscape:export-filename="assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/adaptive-icon.png"
        inkscape:export-xdpi="383.99994"
        inkscape:export-ydpi="383.99994" />
   </sodipodi:namedview>
@@ -106,7 +106,7 @@
          ry="0"
          inkscape:label="BackgroundIcon" />
       <rect
-         style="display:inline;fill:#28ca5b;fill-opacity:1;stroke:none;stroke-width:0.476;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:1.63333;stroke-opacity:1;paint-order:normal"
+         style="display:none;fill:#28ca5b;fill-opacity:1;stroke:none;stroke-width:0.476;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:1.63333;stroke-opacity:1;paint-order:normal"
          id="rect124"
          width="66"
          height="66"
